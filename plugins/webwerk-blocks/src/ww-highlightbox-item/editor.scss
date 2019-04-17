@@ -1,0 +1,42 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+ // ww-Kachel
+ .wp-block-ww-tile-item {
+   border: 1px solid #000;
+   padding: 1rem;
+   margin: 1rem;
+   width: 75%;
+
+
+   .editor-url-input,
+   .components-button {
+     border: 1px solid #000;
+     padding: 1rem;
+     margin: 1rem;
+     background: #ddd;
+   }
+
+   .components-button {
+     width: 90%;
+   }
+
+   .editor-url-input {
+     margin-bottom: 4rem;
+   }
+
+   .editor-rich-text__tinymce {
+     border: none;
+     width: 90%;
+     background: #ddd;
+     margin-bottom: 2rem;
+   }
+
+   .tile-item-button {
+     margin-bottom: 3rem;
+   }
+ }

@@ -1,0 +1,14 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+
+ // ww-Kachel
+ .wp-block-ww-tiles {
+   border: 0.2rem solid $gray;
+   padding: 2rem;
+   margin: 1rem;
+ }

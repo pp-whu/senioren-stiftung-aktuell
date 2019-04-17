@@ -1,0 +1,28 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <defs>
+    <style>
+      g {
+        display: none;
+      }
+      g:target,
+      g:target g {
+        display: inline;
+      }
+      .white {
+        color: #ffffff;
+      }
+      .gray {
+        color: #777777;
+      }
+    </style>
+
+    <symbol id="button-next" viewBox="0 0 41.125 41.125">
+      <title>Button-Next</title>
+      <circle fill="#FFF" stroke="#010202" stroke-miterlimit="10" cx="20.563" cy="20.625" r="20"/>
+      <path fill="currentColor" d="M22.91 15.371l5.367 4.677H10.413V21.2h17.864l-5.367 4.679.758.873 7.043-6.128-7.043-6.126z"/>
+    </symbol>
+
+  </defs>
+  <!-- <g id="language-passive"> <use class="black" xlink:href="#language"/> </g> -->
+</svg>

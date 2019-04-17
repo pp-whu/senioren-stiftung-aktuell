@@ -1,0 +1,57 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+ .symbol {
+   width: 2.78rem;
+   height: 2.78rem;
+ }
+
+ %btn-rotate {
+   .symbol {
+     transform: translateY(-50%);
+     transition: transform 0.15s ease-in-out;
+   }
+
+   &:focus,
+   &:hover {
+     .symbol {
+       transform: translateY(-50%) rotate(-45deg);
+     }
+   }
+ }
+
+.btn-std {
+  @extend %btn-rotate;
+  font-size: $paragraph-font-size;
+  position: relative;
+  border: 1px solid $dark-blue;
+  padding: $grid-column-gutter $grid-column-gutter / 2;
+  background: $white;
+  color: $dark-blue;
+  display: inline-block;
+  margin-top: $grid-column-gutter/2;
+  transition: 0.15s;
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    background: $dark-blue;
+    color: $white;
+  }
+
+  span {
+    display: block;
+    padding-left: $grid-column-gutter * 2.5;
+  }
+
+  .symbol {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: $dark-blue;
+  }
+}
